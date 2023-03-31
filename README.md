@@ -1,6 +1,8 @@
 # Portfolio-Website
 live on:https://shreem-123.github.io/Portfolio-Website/
-![image](https://user-images.githubusercontent.com/96364929/186434900-3c4c4d2b-5d8b-4c61-bb3a-7aed22b74b4f.png)
-![image](https://user-images.githubusercontent.com/96364929/186435077-12721168-d957-4972-aa92-f3ab24616635.png)
-![image](https://user-images.githubusercontent.com/96364929/186208923-fad92818-0bed-47d7-9a54-71c24db77b0d.png)
-![image](https://user-images.githubusercontent.com/96364929/186208962-2780e603-d69d-4f29-82af-60f50a8ac38e.png)
+
+![image](https://user-images.githubusercontent.com/96364929/229188132-55189a11-e2d5-4fde-a1da-59fb621d62dc.png)
+![image](https://user-images.githubusercontent.com/96364929/229188294-e481c5e3-c2c8-4743-82b1-36d2d780a142.png)
+![image](https://user-images.githubusercontent.com/96364929/229188211-a856a98f-55db-47cc-a958-a520921258aa.png)
+![image](https://user-images.githubusercontent.com/96364929/229188644-8f6bf91f-9f9f-4ae0-ad11-86d22ae170fd.png)
+
