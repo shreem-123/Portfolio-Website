@@ -22,7 +22,7 @@
       <section class='heroSection'>
         <img 
         class='profileImage'
-        src='images\shreem_profile.jpg' alt=""/>
+        src='images\newprof.jpg' alt=""/>
         <div class='herosectionDetails'>
           <h1>Shreem Asati</h1>
           <h3>Sophomore at IIIT,Bhopal</h3>
@@ -41,47 +41,71 @@
           <img title='HTML' src='images\HTML.png' alt="">
           <img title='CSS' src='images\CSS.png' alt="">
           <img title='Javascript' src='images\javascript_logo.png' alt="">
-          <img title='Node.JS' src='images\nodejs.png' alt="">
+          <img title='MongoDB' src='images\mongodb.png' alt="">
+          <img title='express' src='images\express-logo.png' alt="">
           <img title='React' src='images\React.png' alt="">
+          <img title='Node.JS' src='images\nodejs.png' alt="">
+          
+          
           
         </div>
         <div class='projects' id='projects'>
           <h1 class='cardHeading'>Projects</h1>
           <div class='projectContainer'>
+            <img src='images\intellimania.jpg' alt=""/>
+            <div class='projectDescription'>
+            <a href="https://github.com/shreem-123/IntelliMania" target="blank"> <h4>IntelliMania</h4></a>
+             <p>Developed a tic-tac-toe game to play virtually.<br>Team Size:4 | Work month:May 2022</p>
+            </div>
+          </div>
+          <div class='projectContainer'>
             <img src='images\music-player.png' alt=""/>
             <div class='projectDescription'>
               <a href="https://shreem-123.github.io/Lostun-s-Buzz/" target="blank"><h4>Lostun's Buzz</h4></a>
-              <p>Developed a music player to listen to songs,Chill and relax.</p>
+              <p>Developed a music player to listen to songs,Chill and relax.<br>Team Size:1 |  Work month:August 2022</p>
             </div>
           </div>
           <div class='projectContainer'>
             <img src='images\tic-tac-toe.png' alt=""/>
             <div class='projectDescription'>
             <a href="https://shreem-123.github.io/Lostun-s_Tic-tac-Toe/" target="blank"> <h4>Lostun's Tic-tac-Toe</h4></a>
-             <p>Developed a tic-tac-toe game to play virtually.</p>
+             <p>Developed a tic-tac-toe game to play virtually.<br>Team Size:1  | Work month:April 2022</p>
             </div>
           </div>
-          <div class='projectContainer'>
+          <!-- <div class='projectContainer'>
             <img src='images\hotstar.png' alt=""/>
             <div class='projectDescription'>
                 <a href="https://shreem-123.github.io/Disney-HotstarClone/" target="blank"> <h4>Disney+ Hotstar Clone</h4></a>
               
               <p>Developed a Clone of Disney+ Hotstar.</p>
-            </div>
-          </div>
+            </div> -->
+          <!-- </div> -->
           <div class='projectContainer'>
             <img src='images\snake.jpg' alt=""/>
             <div class='projectDescription'>
                 <a href="https://shreem-123.github.io/Lostun-s_Tic-tac-Toe/" target="blank"> <h4>Lostun's Snake Game</h4></a>
               
-              <p>Developed a Snake Game game to play virtually.</p>
+              <p>Developed a Snake Game game to play virtually.<br>Team Size:1 |  Work month:April 2022</p>
             </div>
           </div>
         </div>
       </section>
       <section class='contactForm' id='contactForm'>
         <h1>Let's Connect!</h2>
-        <div class='formGroup'>
+          <form action="https://formsubmit.co/asatishreem@gmail.com" method="POST" class="formGroup">
+            <label for='name'>Enter Full Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/><br>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/><br>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+          <button class='submitButton' onClick={submit()}>Connect</button>
+        </form>
+            <!-- <input type="text" name="name" required>
+            <input type="email" name="email" required>
+            <button type="submit">Send</button> -->
+      
+        <!-- <div class='formGroup'>
           <label for='name'>Enter Full Name</label><br/>
           <input type='text' id='name' placeholder='Full Name'/>
         </div>
@@ -94,6 +118,7 @@
           <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
         </div>
         <button class='submitButton' onClick={submit()}>Connect</button>
+      </form> -->
       </section>
     </main>
 <!--     <script src="script.js"></script> -->
